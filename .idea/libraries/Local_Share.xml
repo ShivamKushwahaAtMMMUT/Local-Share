@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Local Share">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Local_Share_jar/Local Share.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

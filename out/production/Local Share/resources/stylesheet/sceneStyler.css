@@ -1,0 +1,80 @@
+.root {
+    -fx-background-image: url("backgrounds/chatBackground.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center;
+    -fx-background-size: cover;
+    -fx-effect: dropshadow(three-pass-box, #0288d1, 30, 0.5, 0, 0);
+    -fx-border-color: #0288d1;
+    -fx-border-width: 8px;
+}
+
+#logoutCircle, #closeCircle {
+    -fx-stroke: #0288d1;
+    -fx-stroke-width: 6px;
+    -fx-effect: dropshadow(three-pass-box, #0288d1, 20, 0, 0, 0);
+}
+#logoutCircle:pressed, #closeCircle:pressed {
+    -fx-stroke: #0288d1;
+    -fx-stroke-width: 1px;
+    -fx-effect: dropshadow(three-pass-box, #0288d1, 20, 0, 0, 0);
+}
+
+#logoutCircleOuter, #closeCircleOuter {
+    -fx-fill: #eceff1;
+    -fx-stroke: #b0bec5;
+    -fx-stroke-width: 2px;
+}
+
+.label {
+    -fx-text-fill: #039be5;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-underline: true;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-background-color: #039be5;
+    -fx-background-insets: 6px;
+}
+.button:hover {
+    -fx-text-fill: #039be5;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-background-color: white;
+}
+.button:pressed {
+    -fx-text-fill: #039be5;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-background-color: white;
+}
+
+.text-field {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-background-color: #039be5;
+    -fx-background-insets: 6px;
+    -fx-border-color: white;
+    -fx-border-width: 5px;
+    -fx-border-radius: 20;
+}
+.text-field:focused {
+    -fx-text-fill: #039be5;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-background-color: white;
+    -fx-background-insets: 6px;
+    -fx-border-color: #039be5;
+    -fx-border-width: 5px;
+    -fx-border-radius: 20;
+}
+
+#circle {
+	-fx-stroke: #e3f2fd;
+	-fx-stroke-width: 3px;
+	-fx-effect: dropshadow(three-pass-box, #bbdefb, 30, 0.5, 0, 0);
+}
