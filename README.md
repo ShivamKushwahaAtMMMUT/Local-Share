@@ -1,5 +1,5 @@
 # Local-Share
-  #Local Share- The smartest cross platform file sharing tool over local network
+  Local Share- The smartest cross platform file sharing tool over local network
   
   - Share any type of file at any time
 
