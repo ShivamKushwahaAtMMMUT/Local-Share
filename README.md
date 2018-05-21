@@ -14,3 +14,9 @@
   - Simple user interface and friendly design
 
   - Files can be transfered over mobile hotspot, WiFi, any organization's local network
+
+Support and Stay connected 
+
+Official Site: https://localshare.github.io/ 
+
+Facebook: https://www.facebook.com/Local-Share-272146473284364/
